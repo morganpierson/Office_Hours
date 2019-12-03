@@ -8,7 +8,16 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String
   },
-  googleId: String
+  googleId: String,
+  avatar: String,
+  role: {
+    type: String,
+    
+  },
+  city: {
+    type: String,
+    
+  }
 }, {
   timestamps: true
 });
